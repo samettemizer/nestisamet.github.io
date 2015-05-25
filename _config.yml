@@ -1,0 +1,33 @@
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+
+highlighter: pygments
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: samet's scratchpad
+description: Foo foo foo...
+
+author:
+  name: Samet TEMIZER
+  email: info@stemizer.net
+  github: nestisamet
+  twitter: nestisamet
+  pinterest: nestisamet
+  linkedin: nestisamet
+  bio: Think twice.. Code once..
+  email_md5: 4fbccb663967e0b20f086ccb428641c7
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
+
+exclude:
+ - README.md
+ - _drafts
