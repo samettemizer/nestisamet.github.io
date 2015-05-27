@@ -197,9 +197,13 @@ ul.dropdown-menu>li>a>i.fa {
 	width: 100%;
 }
 
+._avatar {
+	padding: 8px 15px;
+}
+
 @media (max-width: 767px)
 {
 	._container { 
-		top: 45px;
+		top: 31px;
 	}
 }
