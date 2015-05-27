@@ -190,3 +190,16 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+._navigation {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+@media (max-width: 767px)
+{
+	._container { 
+		top: 65px;
+	}
+}

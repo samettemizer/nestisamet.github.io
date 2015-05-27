@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test publishing still <i class='fa fa-smile-o'></i>
+title: Test publishing still
 categories: other
 author: "Bart Simpson"
 meta: "Springfield"
