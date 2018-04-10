@@ -52,7 +52,10 @@
 			</a>
 			{% endif %}
 			<a class="navbar-brand _avatar" href="{{ site.BASE_PATH }}/">
-				<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
+				{% comment %} 
+				http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=35
+				{% endcomment %}
+				<img src="https://media.licdn.com/dms/image/C5603AQGO2fwWcKp_xg/profile-displayphoto-shrink_200_200/0?e=1528509600&v=beta&t=Fz1GcTolL7-6UXm3IpnELm5C6scp6oJK3Ku8_tKE1dc" class="img-circle" />
 				{{ site.title }}
 			</a>
 		</div>
