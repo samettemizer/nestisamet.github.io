@@ -45,6 +45,6 @@ $( document ).ready(function() {
 	
 	contact_list.mouseleave(function(){ scontacts.fadeOut(); });
 	
-	$('.contact-mail').attr('href', 'mailto:'+base64_decode("aW5mb0BzdGVtaXplci5uZXQ="));
+	$('.contact-mail').attr('href', 'mailto:'+base64_decode("bmVzdGlzYW1ldEBnbWFpbC5jb20="));
 
 });
